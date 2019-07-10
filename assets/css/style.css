@@ -1,0 +1,29 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav {
+    float: left;
+    margin-right: 0;
+}
+
+.mainbox {
+    padding: 1em;
+    margin: 2em;
+    background-color: white;
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+.card {
+    float: left;
+}
